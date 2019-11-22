@@ -40,7 +40,7 @@ while loop:
             os.system('pkg update && pkg upgrade -y')
             os.system('pkg install python -y')
             os.system('pkg install python2 -y')
-            os.system('pkg install git ncurses-utils')
+            os.system('pkg install git ncurses-utils -y')
             os.system('git clone https://github.com/st42/termux-sudo.git')
             os.system('cd termux-sudo')
             os.system('cat sudo > /data/data/com.termux/files/usr/bin/sudo')
